@@ -6,3 +6,10 @@ f.close()
 f=open('Samplefile1.txt','a')
 f.write(" World")
 f.close()
+
+# writelines is used here to print multiple lines of a list
+L=['Hello\n','Hi\n','How are you\n','I\n','Am\n','Fine']
+#In next line, 'w' is replacing/overwritting previous Strings (Hello World)
+f=open('Samplefile1.txt','w')
+f.writelines(L)
+f.close()
