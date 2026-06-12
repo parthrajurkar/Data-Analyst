@@ -19,8 +19,8 @@ f.close()
 s=f.read()
 print(s)"""
 
-# readline
+# readline - reads one line at a time,end='\n'
 f=open('Samplefile1.txt','r')
-print(f.readline())
-print(f.readline())
+print(f.readline(),end='')
+print(f.readline(),end='')
 f.close()
