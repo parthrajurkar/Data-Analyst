@@ -13,3 +13,8 @@ L=['Hello\n','Hi\n','How are you\n','I\n','Am\n','Fine']
 f=open('Samplefile1.txt','w')
 f.writelines(L)
 f.close()
+
+# 'r' - read
+f=open('Samplefile1.txt','r')
+s=f.read()
+print(s)
