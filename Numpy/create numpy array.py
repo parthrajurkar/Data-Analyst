@@ -11,7 +11,10 @@ b = np.array([[1,2,3],
               [7,8,9]])
 print(b)
 
-# Multidimensional Array
+# 3D Array
+
+c=np.array([[[1,2],[2,3],[3,2]]])
+print(c)
 
 
 # Array containing float values
