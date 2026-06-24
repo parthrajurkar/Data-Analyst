@@ -7,6 +7,11 @@ data={
 }
 
 df=pd.DataFrame(data)
-print(df)
+#print(df)
 
-df.to_csv("Output.csv",index=False)
+#df.to_csv("Output.csv",index=False)
+
+df.to_excel("Output.xlsx",index=False)
+
+df=pd.read_excel("Output.xlsx")
+print(df)
