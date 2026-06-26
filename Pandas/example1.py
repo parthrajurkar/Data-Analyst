@@ -15,7 +15,14 @@ print(df)
 
 #Displaying Single Column-"Names",single column returns series
 print("Names")
-#name=df["Name"]
-#print(name)
+
+"""name=df["Name"]
+print(name)"""
 
 print(df["Name"])
+
+#Selecting Multiple Columns
+subset=df[["Name","Salary"]]
+print("\nSubset with Name and Salary")
+print(subset)
+
