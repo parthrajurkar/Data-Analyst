@@ -11,6 +11,7 @@ df=pd.DataFrame(data)
 print(df)
 
 #fillna replaces all nan values with given value
+"""
 df.fillna({
     "Name":"0",
     "Age":0,
@@ -18,4 +19,10 @@ df.fillna({
     "Performance Score":0
 },inplace=True)
 
+print(df)
+"""
+
+#Calculated Fillna Value for Age
+
+df['Age']=df["Age"].fillna(df["Age"].mean())
 print(df)
