@@ -27,6 +27,16 @@ df['Performance_Rating']=df['Performance_Rating'].fillna(df['Performance_Rating'
 #remove duplicate records
 df.drop_duplicates(inplace=True)
 
-print(df['Salary'].to_string())
+print(df['Salary'])
+
+salary_mean=df['Salary'].mean()
+salary_std=df['Salary'].std()
+lower_bound=salary_mean-(3*salary_std)
+upper_bound=salary_mean+(3*salary_std)
+
+df=df[(df['Salary']>=lower_bound)&(df['Salary']<=upper_bound)]
+
+df.to_csv('Cleaned_Indian_Employee.csv',index=False)
+print("data cleaning completed")
 
 
