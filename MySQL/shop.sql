@@ -17,3 +17,10 @@ select * from Customers;
 select name from Customers;
 select distinct address from customers;
 
+insert into customers(Name,Email,Address)
+values
+('Ram','ram@gmail.com','Mumbai,India');
+
+select * from customers where Address like '%Amravati%';
+select * from customers where Name='Ram' and address like '%Mumbai%';
+select * from customers where Address Not like '%Mumbai%';
