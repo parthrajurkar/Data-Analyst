@@ -24,3 +24,6 @@ values
 select * from customers where Address like '%Amravati%';
 select * from customers where Name='Ram' and address like '%Mumbai%';
 select * from customers where Address Not like '%Mumbai%';
+
+select * from customers order by Name asc;
+select * from customers order by customerid desc;
