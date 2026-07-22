@@ -18,3 +18,9 @@ select * from customers;
 update customers
 set address='Pune'
 where Name='Parth';
+
+delete from customers
+where Name='Parth';
+
+delete from customers
+where Address like '%Mumbai%';
