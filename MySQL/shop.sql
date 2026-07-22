@@ -11,4 +11,6 @@ Address varchar(200)
 insert into Customers(Name,Email,Address)
 values
 ('Parth','parth@gmail.com','Amravati,India'),
-('Krishna','krishna@gmail.com','Amravati,India'),
+('Krishna','krishna@gmail.com','Amravati,India');
+
+select * from Customers
