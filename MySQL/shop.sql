@@ -13,4 +13,7 @@ values
 ('Parth','parth@gmail.com','Amravati,India'),
 ('Krishna','krishna@gmail.com','Amravati,India');
 
-select * from Customers
+select * from Customers;
+select name from Customers;
+select distinct address from customers;
+
