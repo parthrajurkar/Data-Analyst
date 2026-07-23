@@ -18,3 +18,7 @@ values
 ('Bag','Accessories',1000.00,'2024-03-04');
 
 select * from sales;
+select count(*) from sales;
+select sum(amount) from sales;
+select avg(amount) from sales;
+select min(amount),max(amount) from sales;
