@@ -22,3 +22,9 @@ select count(*) from sales;
 select sum(amount) from sales;
 select avg(amount) from sales;
 select min(amount),max(amount) from sales;
+
+select category,sum(amount)
+from sales
+group by category
+
+having sum(amount)>1000;
