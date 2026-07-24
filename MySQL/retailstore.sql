@@ -37,6 +37,8 @@ select customers.customername,orders.product,orders.amount
 from customers left join orders
 on customers.CustomerID= orders.customerid;
 
+union
+
 select customers.CustomerName, orders.product
 from customers right join orders
 on customers.CustomerID = orders.customerid;
