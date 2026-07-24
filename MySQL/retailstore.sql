@@ -20,3 +20,9 @@ values
 (1,'Rahul Sharma'),
 (2,'Anjali Mehta'),
 (3,'Amit Verma');
+
+-- Orders Table
+insert into Orders Values
+(1,'Laptop',50000,2),
+(2,'Mouse',500,1),
+(3,'Keyboard',700,1);
