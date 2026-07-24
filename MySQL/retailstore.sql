@@ -25,8 +25,14 @@ values
 insert into Orders Values
 (1,'Laptop',50000,2),
 (2,'Mouse',500,1),
-(3,'Keyboard',700,1);
+(3,'Keyboard',700,1),
+(4,'Monitor',12000,Null);
+
 
 select customers.customername,orders.product,orders.amount
 from customers
 inner join orders on customers.customerid = orders.customerid;
+
+select customers.customername,orders.product,orders.amount
+from customers left join orders
+on customers.CustomerID= orders.customerid;
