@@ -32,3 +32,12 @@ having sum(amount)>1000;
 select product,amount 
 from sales
 where amount > (select avg(amount) from sales);
+
+with CategoryTotals AS(
+	select Category,sum(Amount) AS TotalSales
+    from sales
+    group by category
+)
+select category,totalsales
+from categorytotals
+where totalsales>1000;
