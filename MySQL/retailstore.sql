@@ -11,5 +11,12 @@ OrderID int primary key,
 Product varchar(50),
 Amount decimal(10,2),
 CustomerID int,
-foreign key(CustomerID) references Customer (CustomerID)
+foreign key(CustomerID) references Customers (CustomerID)
 );
+
+-- Customers Table
+insert into Customers(CustomerID,CustomerName)
+values
+(1,'Rahul Sharma'),
+(2,'Anjali Mehta'),
+(3,'Amit Verma');
