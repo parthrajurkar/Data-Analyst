@@ -28,3 +28,7 @@ from sales
 group by category
 
 having sum(amount)>1000;
+
+select product,amount 
+from sales
+where amount > (select avg(amount) from sales);
