@@ -41,3 +41,10 @@ with CategoryTotals AS(
 select category,totalsales
 from categorytotals
 where totalsales>1000;
+
+Create View CategorySales as
+select category,sum(amount) as Totalsales
+from sales
+group by category;
+
+select * from CategorySales where totalsales>500;
