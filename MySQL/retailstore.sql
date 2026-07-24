@@ -36,3 +36,7 @@ inner join orders on customers.customerid = orders.customerid;
 select customers.customername,orders.product,orders.amount
 from customers left join orders
 on customers.CustomerID= orders.customerid;
+
+select customers.CustomerName, orders.product
+from customers right join orders
+on customers.CustomerID = orders.customerid;
