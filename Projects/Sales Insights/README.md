@@ -1,4 +1,4 @@
-# Sales Insights Dashboard using Power BI
+# Sales Insights Dashboard
 
 ## Overview
 
@@ -30,3 +30,8 @@ The project demonstrates an end-to-end Business Intelligence workflow, including
 
 ### Performance Insights
 ![Performance Insights](Screenshots/performance-insights.png)
+
+## 📂 Project Files
+
+- `sales-insights-dashboard.pbix` – Power BI dashboard file
+- `sales-insights-database.sql` – MySQL database dump
