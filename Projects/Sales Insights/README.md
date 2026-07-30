@@ -33,5 +33,5 @@ The project demonstrates an end-to-end Business Intelligence workflow, including
 
 ## 📂 Project Files
 
-- `sales-insights-dashboard.pbix` – Power BI dashboard file
-- `sales-insights-database.sql` – MySQL database dump
+- [sales-insights-dashboard.pbix](sales-insights-dashboard.pbix) – Power BI dashboard file
+- [sales-insights-database.sql](sales-insights-database.sql) – MySQL database dump
