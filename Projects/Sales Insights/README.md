@@ -13,9 +13,20 @@ The project demonstrates an end-to-end Business Intelligence workflow, including
 - Power Query
 - DAX
 
-- ## Project Highlights
+## Project Highlights
 
 - Connected Power BI to a MySQL database.
 - Performed data cleaning and transformation using Power Query.
 - Created DAX measures for business analysis.
 - Built an interactive dashboard with filters and KPI visualizations.
+
+## 📊 Dashboard Preview
+
+### Key Insights
+![Key Insights](Screenshots/key-insights.png)
+
+### Profit Analysis
+![Profit Analysis](Screenshots/profit-analysis.png)
+
+### Performance Insights
+![Performance Insights](Screenshots/performance-insights.png)
